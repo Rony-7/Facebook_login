@@ -1,0 +1,125 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.facebook p{
+  text-align: center;
+  color: gray;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.inputs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: -2px;
+  margin-top: 10px;
+  
+}
+
+.email,.senha{
+  width: 185px;
+  margin-top: 5px;
+  padding-right: 400px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+
+}
+
+.labelemail{
+  margin-left: -395px;
+}
+
+.labelsenha{
+  margin-left: -545px;
+}
+
+.botao{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -3px;
+}
+
+.button1{
+  border:none;
+  padding: 8px 270px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.button1:active{
+  box-shadow: inset 0 0 100px steelblue;
+  color: lightgray;
+}
+
+
+.esqueceu ,.esqueceu a{
+  margin-top: 10px;
+  margin-left: -197px;
+  text-decoration: none;
+  color: royalblue;
+}
+.botao2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ou{
+  display: flex;
+  align-items: center;
+}
+
+.hr1{
+  width: 270px;
+  margin-left: 10px;
+}
+
+.hr2{
+  width: 270px;
+  margin-right: 10px;
+}
+
+.botao2{
+  display: flex;
+  justify-content: center;
+}
+
+.button2{
+  color: white;
+  padding: 11px 20px;
+  font-size: 17px;
+  background-color: forestgreen;
+  border: none;
+  font-weight: bolder;
+}
+
+.button2:active{
+  box-shadow: inset 0 0 100px darkgreen;
+  color: lightgray;
+}
+
+.idiomas1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -468px;
+}
+
+
+.idiomas{
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.idiomas a{
+  color: royalblue;
+  text-decoration: none;
+  margin-left: 2px;
+}
